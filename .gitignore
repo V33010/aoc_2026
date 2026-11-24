@@ -1,0 +1,26 @@
+# /target
+# .venv/
+# inputs/*/main.txt
+# Rust / Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+
+# Advent of Code (keep personal inputs private per AoC creator's request)
+inputs/*/main.txt
+
+# Editors & OS artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

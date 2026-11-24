@@ -1,0 +1,2 @@
+[alias]
+t = "test --bin aoc_2026 -- --nocapture"
